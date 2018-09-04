@@ -1,0 +1,21 @@
+import personas.*
+
+describe" prueba "{
+	test" olivia "{
+		olivia.resibirMasajes()
+		olivia.discute()
+		olivia.discute()
+		assert.equals(7,olivia.concentracion())
+	}
+	test " bruno "{
+		bruno.comerFideos()
+		bruno.correr()
+		assert.equals(bruno.estaPerfecto())
+	}
+	test " ramiro "{
+		ramiro.diaDeTrabajo()
+		ramiro.jugarAlPaddle()
+		assert.equals(5,ramiro.nivelDeContractura())
+		assert.equals(true,ramiro.tieneLaPielGrasosa())
+	}
+}
